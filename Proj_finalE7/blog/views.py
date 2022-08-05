@@ -10,6 +10,7 @@ from .models import Post
 #    return HttpResponse("<h1>IVAN XD</h1><h2>HOLAAaa</h2> ")
 
 #pruebas con html url /documento
+
 # def documento (request):
 #     documento = """
 #     <html>
@@ -23,8 +24,22 @@ from .models import Post
 #     </body>
 #     </html>
 
-#     """ 
-#     return HttpResponse(documento)
+# def documento (request):
+#     documento = """
+#     <html>
+#     <body>
+#     <h1>
+#     DOCUMENTO PRIMERA PAGINA 
+#     </h1>
+#     <h2>
+#     Pruebas de html
+#     </h2>
+#     </body>
+#     </html>
+# >>>>>>> 025b6aba83884c178f7d4563a1675850a7d4c8ed
+
+# #     """ 
+# #     return HttpResponse(documento)
 
 
 class Inicio(ListView):

@@ -13,7 +13,7 @@ def documento (request):
     <h1>
     DOCUMENTO PRIMERA PAGINA 
     </h1>
-    <h2 stylo = "color: red">
+    <h2>
     Pruebas de html
     </h2>
     </body>

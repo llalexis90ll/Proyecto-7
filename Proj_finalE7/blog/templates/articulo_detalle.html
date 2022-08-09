@@ -1,3 +1,6 @@
+{% extends 'base.html' %}
+
+{% block content %}
 
 
 <h1>{{post.title}}</h1>
@@ -11,4 +14,7 @@
 
 </br><br>
 
-<a href="{% url 'Inicio' %}">Volver</a>
+<a href="{% url 'Inicio' %}" class="btn btn-dark">Volver</a>
+
+
+{% endblock %}

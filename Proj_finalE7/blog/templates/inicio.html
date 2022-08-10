@@ -8,12 +8,27 @@
 
 
 
-<ul>
+<ul class="list-group list-group-horizontal">
+
 	{% for post in object_list %}
-		<li><a href="{% url 'articulo-detalle' post.pk %}">{{post.title}}</a><br/>
-		{{post.text}}</li>
+
+		<div class="card" style=" width: 18rem; margin-right: 20px;margin-left: 20px">
+			<div style="width: 100%;padding-left: 0px;padding-right: 0px;position: relative;" class="container">
+				{% load static %}<img src={% static "image-placeholder.png"%} class="card-img-top">
+		  		<div style="position: absolute;bottom: 0;width: 100%;padding: 20px"  class="text-white text-center bg-dark opacity-50 fw-bold" >
+		  			{{post.title}}
+		  		</div>	
+			</div>
+		  
+			<div class="card-body">
+		    <p class="card-text text-truncate">{{post.text}}</p>
+		    <a href="{% url 'articulo-detalle' post.pk %}" class="btn btn-dark stretched-link">Leer</a>
+			</div>
+		</div>
+		
 
 	{%endfor%}
+
 </ul>
 
 {% endblock %}

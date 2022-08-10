@@ -1,7 +1,8 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v14.0" nonce="K8g9kj6k"></script>
 
 <h1>{{post.title}}</h1>
 
@@ -15,6 +16,8 @@
 </br><br>
 
 <a href="{% url 'Inicio' %}" class="btn btn-dark">Volver</a>
+<hr>
+<div class="fb-comments" data-href="http://{{ request.META.HTTP_HOST }}{{ request.get_full_path }}" data-width="100%" data-numposts="3"></div>
 
 
 {% endblock %}

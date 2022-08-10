@@ -2,7 +2,7 @@ from http.client import HTTPResponse
 from django.shortcuts import render , HttpResponse # el http no hay q usar
 
 
-from django.views.generic import ListView, DetailView
+from django.views.generic import ListView, DetailView, TemplateView
 from .models import Post
 
 # Create your views here.
@@ -50,3 +50,4 @@ class Inicio(ListView):
 class ArticuloDetalle(DetailView):
     model = Post
     template_name = 'articulo_detalle.html'
+

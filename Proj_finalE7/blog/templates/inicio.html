@@ -9,11 +9,11 @@
 
 
 <ul>
-{% for post in object_list %}
-	<li><a href="{% url 'articulo-detalle' post.pk %}">{{post.title}}</a><br/>
-	{{post.text}}</li>
+	{% for post in object_list %}
+		<li><a href="{% url 'articulo-detalle' post.pk %}">{{post.title}}</a><br/>
+		{{post.text}}</li>
 
-{%endfor%}
+	{%endfor%}
 </ul>
 
 {% endblock %}

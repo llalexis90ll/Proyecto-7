@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %} Borrar Post {% endblock %}
+
+{% block content %}
+
+
+
+
+
+<h1>Borrar Post</h1>
+<hr>
+</br><br>
+
+<h3>Borrar: {{ post.title }}</h3>
+<div class="form-group">
+
+	<form method="POST">
+		{% csrf_token %}
+		<p class="fs-3 fw-bold text-center">¿Estas Seguro?</p>
+		</br>
+		</br>
+		<div class="d-flex justify-content-center"><button class="btn btn-danger">Borrar Post</button></div>
+	</form>
+	
+</div>
+
+
+
+
+{% endblock %}

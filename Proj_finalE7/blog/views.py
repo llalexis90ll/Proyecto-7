@@ -2,9 +2,11 @@ from http.client import HTTPResponse
 from django.shortcuts import render , HttpResponse # el http no hay q usar
 
 
-from django.views.generic import ListView, DetailView, TemplateView
+from django.views.generic import ListView, DetailView, TemplateView , CreateView , UpdateView, DeleteView
 from .models import Post
 
+from .forms import PostForm
+from django.urls import reverse_lazy
 # Create your views here.
 #def mi_vista(request):
 #    return HttpResponse("<h1>IVAN XD</h1><h2>HOLAAaa</h2> ")
@@ -45,9 +47,24 @@ from .models import Post
 class Inicio(ListView):
     model = Post
     template_name = 'inicio.html'
+    ordering = ['-created_date']
 
 
 class ArticuloDetalle(DetailView):
     model = Post
     template_name = 'articulo_detalle.html'
 
+class CrearPost(CreateView):
+    model = Post
+    form_class = PostForm
+    template_name= 'add_post.html'
+
+class EditarPost(UpdateView):
+    model = Post
+    form_class = PostForm
+    template_name = 'edit_post.html'
+
+class BorrarPost(DeleteView):
+    model = Post
+    template_name = 'borrar_post.html'
+    success_url = reverse_lazy('Inicio')

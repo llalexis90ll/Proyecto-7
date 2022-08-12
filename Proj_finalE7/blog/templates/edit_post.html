@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %} Editar Post {% endblock %}
+
+{% block content %}
+
+
+
+
+
+<h1>Editar Post</h1>
+<hr>
+</br><br>
+<div class="form-group">
+
+	<form method="POST">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<button class="btn btn-dark">Actualizar</button>
+	</form>
+	
+</div>
+
+
+
+
+{% endblock %}

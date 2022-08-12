@@ -1,13 +1,17 @@
 {% extends 'base.html' %}
 
+
+{% block title %} {{post.title}} {% endblock %}
+
 {% block content %}
+
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v14.0" nonce="K8g9kj6k"></script>
 
 <h1>{{post.title}}</h1>
 
 
-<small>Por: {{post.author}}</small></br>
+<small>Por: {{post.author}} - Publicado: {{post.created_date}}</small></br>
 <hr>
 </br>
 {{post.text}}

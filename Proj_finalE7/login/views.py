@@ -9,4 +9,4 @@ from django.urls import reverse_lazy
 class RegistroUser(generic.CreateView):
 	form_class = UserCreationForm
 	template_name = 'registration/registro.html'
-	succes_url = reverse_lazy('login')
+	success_url = reverse_lazy('Inicio')

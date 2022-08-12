@@ -18,14 +18,32 @@
             <ul class="navbar-nav ms-auto">
               {% if user.is_authenticated %}
                 <li class="nav-item">
-                  <a class="nav-link" href="{% url 'crear-post'%}">Crear Post</a>
+                  <a class="nav-link" href="#">Qué Hacemos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{% url 'logout' %}">Salir</a>
+                  <a class="nav-link" href="#">Quienes Somos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{% url 'registro' %}">Registro</a>
+                  <a class="nav-link" href="#">Noticias</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://donaronline.org/fundacion-vientos-de-cambio/aporte-solidario-orquesta-escuela-vientos-de-cambio?fbclid=IwAR30bZvsDmUQ5kosy0mzKuXoDzI-eY5wnc6TKg4u3ECHTJjniJwrFNpsbNs">Donaciones</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Administrar
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'crear-post'%}">Crear Post</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'registro' %}">Nuevos Usuarios</a>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'logout' %}">Salir</a>
+                    </li>
+                    
               {% else %}
 
                 <li class="nav-item">

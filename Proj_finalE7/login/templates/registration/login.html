@@ -16,7 +16,12 @@
 
 	<form method="POST">
 		{% csrf_token %}
-		{{ form.as_p }}
+		<div class="form-group">
+			<input type="text" name="username" class="form-control" placeholder="Usuario">
+			</br>
+			<input type="password" name="password" class="form-control" placeholder="Contraseña">
+			</br>
+		</div>
 		<button class="btn btn-dark">Login</button>
 	</form>
 	

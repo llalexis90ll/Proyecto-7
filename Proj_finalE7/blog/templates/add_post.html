@@ -7,20 +7,24 @@
 
 
 
+{% if user.is_authenticated %}
+	<h1>Crear Post</h1>
+	<hr>
+	</br><br>
+	<div class="form-group">
 
-<h1>Crear Post</h1>
-<hr>
-</br><br>
-<div class="form-group">
+		<form method="POST">
+			{% csrf_token %}
+			{{ form.as_p }}
+			<button class="btn btn-dark">Crear</button>
+		</form>
+		
+	</div>
+{% else%}
 
-	<form method="POST">
-		{% csrf_token %}
-		{{ form.as_p }}
-		<button class="btn btn-dark">Crear</button>
-	</form>
-	
-</div>
+	Pagina no existe
 
+{% endif %}
 
 
 

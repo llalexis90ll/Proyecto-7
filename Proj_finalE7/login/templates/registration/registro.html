@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %} Registrar {% endblock %}
+
+{% block content %}
+
+
+
+
+
+<h1>Registrar</h1>
+<hr>
+</br><br>
+<div class="d-flex justify-content-center">
+	<div class="form-group">
+
+	<form method="POST">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<button class="btn btn-dark">Registrar</button>
+	</form>
+	
+</div>
+</div>
+
+
+
+
+
+{% endblock %}

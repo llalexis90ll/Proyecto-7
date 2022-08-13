@@ -68,3 +68,6 @@ class BorrarPost(DeleteView):
     model = Post
     template_name = 'borrar_post.html'
     success_url = reverse_lazy('Inicio')
+
+class NuestraHistoria(TemplateView):
+    template_name = "NUESTRA_HISTORIA.html"

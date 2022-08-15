@@ -8,6 +8,7 @@
 
 
 {% if user.is_authenticated %}
+</br><br>
 	<h1>Editar Post</h1>
 	<hr>
 	</br><br>
@@ -16,6 +17,7 @@
 
 			<form method="POST">
 				{% csrf_token %}
+				{{ form.media}}
 				{{ form.as_p }}
 				<button class="btn btn-dark">Actualizar</button>
 			</form>

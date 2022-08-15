@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import Inicio , ArticuloDetalle,CrearPost,EditarPost,BorrarPost,NuestraHistoria
+from .views import Inicio , ArticuloDetalle,CrearPost,EditarPost,BorrarPost,NuestraHistoria,NovedadesView
 #from . import views
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
@@ -15,6 +15,8 @@ urlpatterns = [
     path('Post/edit/<int:pk>',EditarPost.as_view(), name='editar-post'),
     path('Post/<int:pk>/remover',BorrarPost.as_view(), name='borrar-post'),
     path('NUESTRA_HISTORIA',NuestraHistoria.as_view(), name='nuestra-historia'),
+    path('Novedades/',NovedadesView.as_view(), name='novedades'),
+    path('About/',Powered.as_view(), name='powered'),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

@@ -71,3 +71,12 @@ class BorrarPost(DeleteView):
 
 class NuestraHistoria(TemplateView):
     template_name = "NUESTRA_HISTORIA.html"
+
+class NovedadesView(ListView):
+    model = Post
+    template_name = 'novedades.html'
+    ordering = ['-created_date']
+
+class Powered(TemplateView):
+    template_name = "powered.html"
+        

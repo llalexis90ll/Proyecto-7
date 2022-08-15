@@ -1,7 +1,7 @@
 from django.db import models
 from django.utils import timezone
 from django.urls import reverse
-
+from ckeditor.fields import RichTextField
 
 
 class Post(models.Model):
@@ -10,7 +10,9 @@ class Post(models.Model):
 
     title = models.CharField(max_length=200)
 
-    text = models.TextField()
+    #text = models.TextField()
+
+    text = RichTextField(blank=True, null=True)
 
     created_date = models.DateTimeField(
 

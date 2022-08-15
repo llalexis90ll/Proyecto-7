@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import Inicio , ArticuloDetalle,CrearPost,EditarPost,BorrarPost,NuestraHistoria,NovedadesView
+from .views import Inicio , ArticuloDetalle,CrearPost,EditarPost,BorrarPost,NuestraHistoria,NovedadesView,Powered
 #from . import views
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 

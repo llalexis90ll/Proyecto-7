@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %} Login {% endblock %}
+
+{% block content %}
+
+
+
+
+
+<h1>Login</h1>
+<hr>
+</br><br>
+<div class="d-flex justify-content-center">
+	<div class="form-group">
+
+	<form method="POST">
+		{% csrf_token %}
+		<div class="form-group">
+			<input type="text" name="username" class="form-control" placeholder="Usuario">
+			</br>
+			<input type="password" name="password" class="form-control" placeholder="Contraseña">
+			</br>
+		</div>
+		<button class="btn btn-dark">Login</button>
+	</form>
+	
+</div>
+</div>
+
+
+
+
+
+{% endblock %}

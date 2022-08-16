@@ -19,7 +19,7 @@
             <ul class="navbar-nav ms-auto">
               {% if user.is_authenticated %}
                     <li class="nav-item">
-                  <a class="nav-link" href="#">INSTITUCIONAL</a>
+                  <a class="nav-link" href="{% url 'Inicio' %}">INSTITUCIONAL</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{% url 'nuestra-historia' %}">NUESTRA HISTORIA</a>
@@ -50,7 +50,7 @@
               {% else %}
     
                 <li class="nav-item">
-                  <a class="nav-link" href="#">INSTITUCIONAL</a>
+                  <a class="nav-link" href="{% url 'Inicio' %}">INSTITUCIONAL</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{% url 'nuestra-historia' %}">NUESTRA HISTORIA</a>

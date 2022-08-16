@@ -1,1 +1,1 @@
-web: gunicorn Proj_finalE7.wsgi --log-file -
+web: gunicorn Proj_finalE7.wsgi

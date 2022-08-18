@@ -75,6 +75,7 @@ class NuestraHistoria(TemplateView):
 class NovedadesView(ListView):
     model = Post
     template_name = 'novedades.html'
+    paginate_by = 4
     ordering = ['-created_date']
 
 class Powered(TemplateView):

@@ -1,0 +1,21 @@
+{% extends 'base.html'%}
+{% block content %}
+
+    </br><br>
+    <h2>Misión</h2>
+    <p>
+        Promover el intercambio cultural y el desarrollo humano a traves de la educación, la palabra y la música, favoreciendo la inclusión de niños, jóvenes y adultos en situación de riesgo. Utilizar el arte y el lenguaje como pilares fundamentales. Promover y profundizar el estudio de la música como una alternativa creadora, de disciplina personal y proyecto de vida, que brinde posibilidades a los jóvenes ayudandolos a profesionalizar el arte adoptándolo como medio de vida. Impulsar la creación de orquestas infantiles y juveniles entendiendo estos espacios como una herramienta de trasnformación social.
+
+    </p>
+
+    <a href="{% url 'Inicio'%}" class="mb-3 me-2 mb-md-0 text-decoration-none text-muted lh-1">{% load static %}
+        <img src={% static "mision.png" %} height="100">
+      </a>
+    
+    </br><br>
+
+
+    <a href="{% url 'Inicio' %}" class="btn btn-dark">Volver</a>
+
+
+{% endblock %}

@@ -14,7 +14,7 @@
 		
 			<p class="fs-6 fw-normal">{{ post.text | slice:":100" | safe }}</p>
 		</a>
-		<hr>
+		
 		{% if user.is_authenticated %}
 			<a href="{% url 'editar-post' post.pk %}" style="height: 21px; margin-right: 10px">
 				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
@@ -28,7 +28,7 @@
 				</svg>
 			</a>
 		{% endif %}
-			
+		<hr>	
 
 	{%endfor%}
 

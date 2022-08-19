@@ -75,7 +75,7 @@ class NuestraHistoria(TemplateView):
 class Institucional(TemplateView):
     template_name = "institucional.html"
 
-    class InstitucionalView(TemplateView): 
+class InstitucionalView(TemplateView): 
     template_name = "INSTITUCIONAL.html"
 
 class NovedadesView(ListView):

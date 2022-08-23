@@ -2,27 +2,85 @@
 {% block content %}
 
     </br><br>
+    <div class="container text-center"></div>
     <h1>UN POCO DE HISTORIA </h1>
     <div class="bd-example">
     <div class="text-left"><font size=4>
     
         <p>El Proyecto de la Orquesa "vientos de Cambio" nació el 11 de noviembre de 2007 como un proyecto especial de la escuela rural Nº 155 "Colina Rivadaria", en el lote 82, a unos 12 km de Presidencia Roque Sáenz Peña, cuya matrícula estaba en disminución. Esta escuela no contaba con nivel inicial ni secundario. Se inician con clases de teoría y solfeo. Con aportes de padrinos de la escuela se compraron los primeros nueve instrumentos.</p>
         <p>Las primeras actividades fueron realizadas en la escuela Nº 155 "Colina Rivadaria", en el lote 82, a unos 12 km de Presidencia Roque Sáenz Peña, segunda ciudad de Chaco, Inicialmente se trabajó en contra turno con la enseñanza de percusión, clarinete, saxo, trombón, trompeta y bombardino. Los profesores trabajaron ad honorem.</p>
-        <div class="text-center">
-            <img src="static/camino_a_la_escuela.jpg" width="200" height="175" class="float-left" alt=" ">
-            <img src="static/colonia_elisa.jpg" width="200" height="175" lass="mx-auto d-block" alt=" ">
-            <img src="static/pozo_campo.jpg" class="float-right" alt=" ">
+        <div class="row justify-content-center">
+         <div class="col-8">
+            {% load static %}
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                  <img src={%static "camino_a_la_escuela.jpg"%} class="d-block w-100" alt=" ">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <img src={%static "colonia_elisa.jpg"%} class="d-block w-100" alt=" ">  
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <img src={%static "pozo_campo.jpg"%} class="d-block w-100" alt=" ">  
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+            
+            
+            
+         </div>   
+        </div>
+        
         <br>
         <p>Se constituye una Banda con 13 integrantes, y después de 6 meses se realiza la primera presentación en un encuentro de danzas, realizando la apertura del mismo. Esto permitió visibilizar el trabajo de la orquesta y de esta manera empezaron a sumarse más interesados. Se constituyó una comisión de padres, para juntar fondos para la compra de otros instrumentos, adquiriéndose, en el mes de julio, tres instrumentos nuevos.</p>
         <p>Durante el 2008, trabajamos en forma ardua durante la tarde con la enseñanza de música y los sábados se realizaban los ensayos generales.</p>
         <p>La banda a fines de 2008 tenía 22 integrantes. Desde ese momento la Banda es el orgullo de la comunidad. Las personas del lugar  se apropiaron del proyecto.</p>
         <p>A fines de 2008, gracias a un gran esfuerzo de los padrinos, se consigue realizar un viaje a Buenos Aires donnde los chicos tocaron en el teatro Santa María de Capital Federal, en el marco de jornadas de solidaridad para con la Banda y la escuela. Este viaje generó un importante y grandioso impacto en los chicos y madres que acompañaron.</p>
         <div class="text-center">
-            <img src="static/ensayo.jpg" width="300" height="175" class="float-left" alt=" ">
-            <img src="static/viaje_bs_as.jpg" width="200" height="175" lass="mx-auto d-block" alt=" ">
-            <img src="static/concierto_bs_as.jpg" width="200" height="175" class="float-right" alt=" ">
+            <div class="row justify-content-center">
+             <div class="col-8">
+                <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src={%static "ensayo.jpg"%} class="d-block w-100" alt=" ">
+                      
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src={%static "viaje_bs_as.jpg"%} class="d-block w-100" alt=" ">  
+                        
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src={%static "concierto_bs_as.jpg"%} class="d-block w-100" alt=" ">
+                        
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                
+                
+                
+             </div>   
             </div>
+            
+            
+            
+        </div>
         
         <p>Los vínculos fueron creciendo a través del tiempo y en el 2009 se contactó con la Orquesta del Cruce Viejo, de Puerto Tirol, otra localidad de Chaco. Este encuentro posibilitó conocer personas que aportaron al crecimiento profesional y humano. Se logró un encuentro, realizando de talleres de música,  que culminó en un concierto en esa ciudad.</p>
         <p>En el año 2010 se consiguió participar del III Festival de Orquestas Infanto-Juveniles realizado en Chascomús, provincia de Buenos Aires. Ser partícipes de este evento trajo importantes aportes a la Banda, por los conocimientos adquiridos como músicos y los vínculos creados con profesores y alumnos.</p>
@@ -32,33 +90,7 @@
         <p>En los meses siguientes la actividad de la Banda se incrementó, consolidándose un grupo fuerte, tanto en lo musical como lo humano.</p>
         <p>Actualmente la Banda cuenta con 68 integrantes que estudian e interpretan, al menos, un instrumento</p>
         <br>
-        <h5>Impacto social del proyecto </h5>
-        <p>Desde sus inicios a la actualidad el Proyecto “Vientos de Cambio” ha logrado que quienes la integraron e integran, se capaciten y progresen, eligiendo algunos, la música como medio de vida.</p>
-        <p>Hay que destacar que algunos de sus primeros integrantes hoy son técnicos en dirección de orquestas infantiles y juveniles, formación realizada a través de un acuerdo con el Instituto Combate Mbororé de Posadas, de la provincia de Misiones.</p> 
-        <p>Participaron en encuentros de orquestas provinciales, nacionales e internacionales, como Iguazú en concierto y el festival de las Tres Fronteras.</p>
-        <p>Algunos fueron parte de la formación de la orquesta infantil nacional “Manuel Belgrano” y la juvenil “Juana Azurduy”. Formadas por el SOIJAR.</p>
-        <p>En el año 2014 por iniciativa del Instituto de Cultura del Chaco la orquesta fue parte de los Encuentros Provinciales “Chaco Sonando”, festival del que a partir del año 2016 se hace cargo el equipo de trabajo de Vientos de Cambio, junto a la orquesta de Cruce Viejo, debido a que el instituto de cultura decide no realizar más dicho encuentro. Por tal motivo fueron realizadas en Pcia Roque Sáenz Peña, las ediciones de este encuentro desde 2016 hasta 2021.</p>
         
-        <p>¿Qué hicimos desde el inicio?</p>
-        <ul class="list-group">
-        <li class="list-group-item">1- Hemos logrado un espacio valioso de expresión,  para los niños, adolescentes y adultos.</li>
-        <li class="list-group-item">2- La formación musical permitió afianzar conductas de orden,  limpieza, disciplina, compañerismo, amistad, respeto por la creación del otro.</li>
-        <li class="list-group-item"> 3- Elevar la estima de los niños.</li>
-        <li class="list-group-item"> 4- Dictado de conciertos didácticos en otras escuelas.</li>
-        <li class="list-group-item"> 5- Participación en eventos nacionales, regionales y locales.</li>
-        <li class="list-group-item"> 6- Por la orquesta, la mirada hacia la zona cambió notablemente. Hemos conseguido un colegio secundario para la zona.</li>
-        <li class="list-group-item"> 7- Crear un ambiente de solidaridad.</li>
-        <li class="list-group-item"> 8- Brindar elementos que permitan crecimiento interior y social de los alumnos de la escuela de música.</li>
-        <li class="list-group-item"> 9- Afianzar el sentido de pertenencia.</li>
-        <li class="list-group-item"> 10- Una posibilidad para que los que deseen estudiar música tengan las herramientas básicas para su éxito.</li>
-        <li class="list-group-item"> 11- Los adolescentes que están avanzados en su aprendizaje musical participan en la formación de otros niños en otras escuelas (Escuela N° 240 De Concepción del Bermejo”) y lugares (Teatro “La Usina”) donde tenemos células de trabajo.</li>
-        <li class="list-group-item"> 12- Cuatro de nuestros adolescentes ya son parte de la orquesta del SOIJAR, donde pueden ejecutar piezas con cierto grado de complejidad.</li>
-        <li class="list-group-item"> 13- La escuela primaria, jardín de infantes, y secundaria compenetradas con el área de música como eje transversal de las actividades.</li>
-        <li class="list-group-item"> 14-La escuela desde el inicio del proyecto comenzó a abrirse a la comunidad. Se trabaja en contra turno y los días sábados de 8 a 12.</li>
-        <li class="list-group-item"> 15- Los padres comenzaron a valorar las actividades que realiza su niño en la escuela.</li>
-        <li class="list-group-item"> 16-La asistencia a clase se ha mejorado notablemente.</li>
-        <li class="list-group-item"> 17-La matrícula de la escuela se duplicó.</li>
-        </ul>
         
     </font>
 
@@ -66,20 +98,20 @@
 
     
     </br><br>
-    <div class = "container">
+    <div class = "container col-8">
 
         <div class  = "ratio ratio-16x9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/SNi6UxcytmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
     </br><br>
-    <div class = "container">
 
         <div class  = "ratio ratio-16x9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/uFtvWVmisXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
     </br>
+    </div>
   <a href="{% url 'Inicio' %}" class="btn btn-dark">Volver</a>
 
 

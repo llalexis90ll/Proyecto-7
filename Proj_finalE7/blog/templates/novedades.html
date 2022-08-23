@@ -59,16 +59,20 @@
         </li>
         {% endif %} 
         {% for object in page_obj.paginator.page_range %}
-
+            {% if page_obj.number != forloop.counter %}
             <li class="page-item"><a class="page-link" href="{% url 'novedades' %}?page={{ forloop.counter }}">{{ forloop.counter }}</a></li>
+            {% else %}
+              <li class="page-item"><a class="page-link disabled" href="#">{{ forloop.counter }}</a></li>
+            
+            {% endif %}
 
         {% endfor %} 
         {% if page_obj.has_next %}
           {% if not search %}
 
-          <li class="page-item">
-              <a class="page-link" href="{% url 'novedades' %}?page={{ page_obj.next_page_number }}">Siguiente</a>
-          </li>
+            <li class="page-item">
+                <a class="page-link" href="{% url 'novedades' %}?page={{ page_obj.next_page_number }}">Siguiente</a>
+            </li>
           {% else %}
 
             <li class="page-item">
@@ -85,7 +89,6 @@
         {% endif %}
     </ul>
 </nav>
-
 {% endif %}
 
 {% endblock %}

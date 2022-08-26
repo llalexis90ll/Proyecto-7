@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 import os
 from pathlib import Path
-import django_heroku
+#import django_heroku
 import dj_database_url
 from decouple import config
 
@@ -140,4 +140,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = 'Inicio'
 LOGOUT_REDIRECT_URL = 'Inicio'
 
-django_heroku.settings(locals())
+#django_heroku.settings(locals())

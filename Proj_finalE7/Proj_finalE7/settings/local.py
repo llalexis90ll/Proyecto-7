@@ -1,4 +1,4 @@
 from .base import *
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["fvientosdecambio.pythonanywhere.com"]
 
 

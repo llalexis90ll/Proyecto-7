@@ -1,13 +1,13 @@
 <p align="center" width="300">
    <img align="center" width="200" src="https://github.com/llalexis90ll/Proyecto-7/blob/main/Proj_finalE7/static/informatorio%20(2).jpg" />
-   <h3 align="center">👋¡Bienvenido al repo del Proyecto Final del Informatorio!👋 <br>
+   <h3 align="center">👋¡Bienvenid@ al repo del Proyecto Final del Informatorio!👋 <br>
      💻 Desarrollo Web y Base de datos - Etapa 2 💻</h3>
 </p>
 
 <p align="center"><strong>Equipo 7</strong> <br />Integrantes 👇</p>
 <p align="center">
-Berger, Sergio Miguel; Criscueli, Eduardo Ezequiel; Ferreyra , Cristian Ruben; Latorre, Ivan; <br>
-Ojcius, Gabriela; Padin, Alejandra; Peloso, Damian Alexis; Recalde, Ramon Maximo; Torre, Luciano Torre
+Berger, Sergio Miguel; Criscueli, Eduardo Ezequiel; Ferreyra , Cristian Rubén; Latorre, Iván; <br>
+Ojcius, Gabriela; Padin, Alejandra; Peloso, Damián Alexis; Recalde, Ramón Máximo; Torre, Luciano Torre
 </p>
 
 ### 📝 Blog para la fundación ["Vientos de Cambio"](http://fvientosdecambio.pythonanywhere.com/)

@@ -1,5 +1,5 @@
 <p align="center" width="300">
-   <img align="center" width="200" src="https://github.com/llalexis90ll/Proyecto-7/blob/main/Proj_finalE7/static/informatorio%20(1).jpg" />
+   <img align="center" width="200" src="https://github.com/llalexis90ll/Proyecto-7/blob/main/Proj_finalE7/static/informatorio%20(2).jpg" />
    <h3 align="center">👋¡Bienvenido al repo del Proyecto Final del Informatorio!👋 <br>
      💻 Desarrollo Web y Base de datos - Etapa 2 💻</h3>
 </p>

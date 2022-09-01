@@ -5,7 +5,6 @@
 </p>
 
 <p align="center"><strong>Equipo 7</strong> <br />Integrantes 👇</p>
-<br>
 Berger, Sergio Miguel; Criscueli, Eduardo Ezequiel; Ferreyra , Cristian Ruben; Latorre, Ivan; <br>
 Ojcius, Gabriela; Padin, Alejandra; Peloso, Damian Alexis; Recalde, Ramon Maximo; Torre, Luciano Torre
 </p>

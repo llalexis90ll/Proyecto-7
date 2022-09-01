@@ -1,29 +1,43 @@
-# Proyecto-7
-Proyecto del Informatorio 2022 del equipo 7 .
-El Proyeco Final coniste en la creación de un blog 
-a pedido de la Fundación "Vientos de Cambio".En él 
-los visitantes de la página pueden investigar sobre 
-la misión,los objetivos y la hstoria de la Fundación.
-En los posteos puede encontrar las publicaciones 
-referidas a las actividades educativas de la orquesta y
-sus integrantes. 
-TUTORIAL: Con éste enlace:https://youtu.be/tQ7sHToAE6Q
-Ud.podrá tener un panorama sobre el contenido del Blog, 
-ademas de cómo editar grupos, usuarios y posteos siendo 
-administrador.
-Blog creado con:
-Framework: Django 4.0
-sistema de Versiones: GIT
-Sistema de Gestión de Base de datos:sqlite3
-AUTORES:
-Luciano Torre
-Eduardo Ezequiel Criscueli
-Sergio Miguel Berger
-Alejandra Padín
-Cristian Rubén Ferreyra
-Iván Latorre
-Damián alexis Peloso
-Gabriela Ojcius
-Ramón M. recalde
+<p align="center" width="300">
+   <img align="center" width="200" src="https://github.com/GabrielaOjcius/Hola-/blob/main/informatorio%20(1)%20-%20copia.jpg" />
+   <h3 align="center">👋¡Bienvenido al repo del Proyecto Final del Informatorio!👋 <br>
+     💻 Desarrollo Web y Base de datos - Etapa 2 💻</h3>
+</p>
 
+<p align="center"><strong>Equipo 7</strong> <br />Integtrantes 👇</p>
+<p align="center"><strong>Equipo 7</strong> <br />
+Berger, Sergio Miguel; Criscueli, Eduardo Ezequiel; Ferreyra , Cristian Ruben; Latorre, Ivan; <br>
+Ojcius, Gabriela; Padin, Alejandra; Peloso, Damian Alexis; Recalde, Ramon Maximo; Torre, Luciano Torre
+</p>
+
+### 📝 Blog para la fundación ["Vientos de Cambio"](http://fvientosdecambio.pythonanywhere.com/)
+- En este blog se comparte información relevante de la Fundación, como las actividades realizadas o aquellas programadas, su misión y valores, sus orígenes e historia, enlace con otras redes sociales y también una sección que posibilite ingresar al link a través del cual reciben donaciones económicas. 
+- El formato blog permite además, la creación de posteos, siendo administradores, lo que, sin dudas, cumple con lo solicitado por los interesados.
+
+
+### 📹 En este video, encontrará un [Tutorial](https://www.youtube.com/watch?v=tQ7sHToAE6Q&feature=youtu.be)
+- En este video se podrá tener un panorama sobre el contenido del Blog, ademas de cómo editar grupos, usuarios y posteos siendo administrador. 
+- Blog creado con: Framework: Django 4.0.
+
+### 📸 Algunas fotos
+<a href='https://instagram.com/p/Ch-FfbcrxuT' target='_blank'>
+  <img width='20%' src='https://github.com/llalexis90ll/Proyecto-7/blob/main/Proj_finalE7/static/Captura%20de%20pantalla%202022-09-01%20194936.png' alt='Web photo' />
+</a>
+<a href='https://instagram.com/p/Ch7Xlpujk3T' target='_blank'>
+  <img width='20%' src='https://github.com/llalexis90ll/Proyecto-7/blob/main/Proj_finalE7/static/Captura%20de%20pantalla%202022-09-01%20194839.png' alt='Web photo' />
+</a>
+<a href='https://instagram.com/p/Ch41CcDjO3h' target='_blank'>
+  <img width='20%' src='https://github.com/llalexis90ll/Proyecto-7/blob/main/Proj_finalE7/static/Captura%20de%20pantalla%202022-09-01%20194820.png' alt='Web photo' />
+</a>
+</a>
+<a href='https://instagram.com/p/Ch41CcDjO3h' target='_blank'>
+  <img width='20%' src='https://github.com/llalexis90ll/Proyecto-7/blob/main/Proj_finalE7/static/Captura%20de%20pantalla%202022-09-01%20194910.png' alt='Web photo' />
+</a>
+<a href='https://instagram.com/p/Ch2Va-9jU1U' target='_blank'>
+  <img width='20%' src='https://github.com/llalexis90ll/Proyecto-7/blob/main/Proj_finalE7/static/Captura%20de%20pantalla%202022-09-01%20194852.png' />
+</a>
+</a>
+<a href='https://instagram.com/p/Ch2Va-9jU1U' target='_blank'>
+  <img width='https://github.com/llalexis90ll/Proyecto-7/blob/main/Proj_finalE7/static/Captura%20de%20pantalla%202022-09-01%20194910.png' />
+</a>
 

@@ -7,7 +7,7 @@
 <p align="center"><strong>Equipo 7</strong> <br />Integrantes 👇</p>
 <p align="center">
 Berger, Sergio Miguel; Criscueli, Eduardo Ezequiel; Ferreyra , Cristian Rubén; Latorre, Iván; <br>
-Ojcius, Gabriela; Padin, Alejandra; Peloso, Damián Alexis; Recalde, Ramón Máximo; Torre, Luciano Torre
+Ojcius, Gabriela; Padin, Alejandra; Peloso, Damián Alexis; Recalde, Ramón Máximo; Torre, Luciano 
 </p>
 
 ### 📝 Blog para la fundación ["Vientos de Cambio"](http://fvientosdecambio.pythonanywhere.com/)
